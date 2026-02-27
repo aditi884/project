@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.wrapper{
+    width: 100%;
+    position: relative;
+}
+.port{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+}
+.img img{
+     height: 100%;
+     width: 100%;
+     position: fixed;
+}
+nav{
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    display: flex;
+}
+nav .left{
+    height: 100%;
+    width: 50%;
+    
+}
+.left h1{
+    padding-left: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    margin-top: 30px;
+
+}
+
+nav .right{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content:end;
+    gap: 30px;
+    padding-right: 70px;
+    margin-top: 30px;
+
+}
+.btn{
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    font-size: 15px;
+    
+}
+.right p{
+    font-size: 15px;
+    margin-top: 10px;
+    color: aliceblue;
+}
+.port{
+    height: calc(100% - 10%);
+    width: 100%;
+    display: flex;
+    position:fixed;
+   
+}
+.port .l{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 60px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.l h1{
+    color:aliceblue;
+    font-size: 120px;
+    margin-top: 5px;
+
+}
+.l p{
+    color:white ;
+    font-size: 40px;
+    margin-bottom: 0.1px;
+
+}
+.port .r{
+    height:100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: rgb(235, 230, 230);
+    margin-top: 70px;
+    padding-left: 40px;
+}
+.r h3{
+    font-size: 70px;
+}
+.r p{
+    font-size: 35px;
+    margin-top: 10px;
+}
+footer{
+    width: 100%;
+    height: 500px;
+    margin-top: 630px;
+    position:fixed;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 200px;
+    color: white;
+    padding-top: 10px;
+}
+footer h4{
+    text-decoration: underline ;
+    margin-top: 20px;
+}
